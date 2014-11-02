@@ -32,7 +32,7 @@ var zoom = (function () {
 	var docBodyStyle;
 
 	// Wait until document onready before initializing
-	document.addEventListener( 'ready', function () {
+	document.addEventListener( 'DOMContentLoaded', function () {
 
 		docBodyStyle = document.body.style;
 
@@ -276,4 +276,3 @@ var zoom = (function () {
 	};
 
 })();
-
